@@ -1,9 +1,14 @@
+* {
+    text-decoration: none;
+}
+
 /* ----------------------------
     font style
 ----------------------------*/
 body {
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 
@@ -104,9 +109,9 @@ hr {
 
 
 
-/* ----------------------------
-    Popular collection
-----------------------------*/
+/* --------------------------------
+    Main (Popular collection)
+----------------------------------*/
 main {
     display: flex;
     flex-direction: column;
@@ -201,12 +206,85 @@ main .section-tile {
 .more-text-position {
     display: flex;
     justify-content: end;
-    width: 1510px;
+    width: 1530px;
 }
 
 .collection-more-text,
 .fa-arrow-right {
     color: rgba(224, 44, 109, 0.87);
     font-weight: 700;
+}
 
+
+
+
+/* --------------------------------
+    Feature section
+----------------------------------*/
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature {
+    display: flex;
+    gap: 100px;
+}
+
+.feature-title {
+    color: #0A0826;
+    font-size: 38px;
+}
+
+.feature-info {
+    width: 800px;
+    color: #6C6C6C;
+    font-weight: 700;
+}
+
+.feature button {
+    background: #E02C6D;
+    border: none;
+    color: #FFF;
+    width: 155px;
+    height: 45px;
+}
+
+
+
+/* --------------------------------
+    Footer
+----------------------------------*/
+footer {
+    width: 100%;
+    height: 239px;
+    background: #0A0826;
+    color: #FFF;
+    margin-top: 100px;
+}
+
+.footer-head {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info p {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer-icon {
+    width: 100%;
+    height: 32px;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
