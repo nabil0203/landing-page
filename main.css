@@ -81,3 +81,132 @@ header {
     height: 475px;
     background-image: url(images/Circle\ design.svg);
 }
+
+
+
+
+/* ----------------------------
+    Company Logos
+----------------------------*/
+hr {
+    width: 1300px;
+    height: 1px;
+    fill: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+}
+
+.com-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    /* margin-top: 110px; */
+}
+
+
+
+/* ----------------------------
+    Popular collection
+----------------------------*/
+main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+main .section-tile {
+    color: #3A3A3A;
+    font-size: 28px;
+    font-weight: 600;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1247px;
+    height: 1662px;
+    align-items: center;
+    justify-items: center;
+}
+
+.collection {
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.collection-content {
+    padding-top: 17px;
+    padding-left: 14px;
+}
+
+.collection-banner {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 17px;
+    padding-left: 14px; */
+}
+
+.collection-tile {
+    color: var(--Text-Gray-900, #18191F);
+    font-size: 28px;
+    font-weight: 500;
+    margin: 16px 0 6px 0;
+}
+
+.collection-price {
+    color: var(--Dark-Color, rgba(0, 0, 0, 0.87));
+    font-family: Inter;
+    font-size: 24px;
+    margin: 0;
+}
+
+.star-rate {
+    width: 132px;
+    height: 32px;
+    font-size: 14px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-solid,
+.fa-star-half-stroke {
+    color: #FB8200;
+}
+
+.rate {
+    color: var(--gray-80, #5E6366);
+    font-weight: 700;
+}
+
+.collection-detail {
+    width: 196px;
+    color: var(--Gray-50, #787885);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.more-text-position {
+    display: flex;
+    justify-content: end;
+    width: 1510px;
+}
+
+.collection-more-text,
+.fa-arrow-right {
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+
+}
