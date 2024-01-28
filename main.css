@@ -22,17 +22,16 @@ nav {
     justify-content: space-around;
     align-items: center;
     /* width: 100%; */
+    color: #3A3A3A;
 }
 
 .nav-title {
     width: 630px;
-    color: #3A3A3A;
     font-weight: 700;
     font-size: 24px;
 }
 
 .nav-other {
-    color: #3A3A3A;
     font-weight: 600;
     width: 400px;
     display: flex;
@@ -253,6 +252,7 @@ section {
 
 
 
+
 /* --------------------------------
     Footer
 ----------------------------------*/
@@ -287,4 +287,80 @@ footer {
     gap: 10px;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+
+/* ------------------------------
+    Responsive
+--------------------------------*/
+
+/* Small device (mobile) */
+@media screen and (max-width: 577px) {
+    .hide {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-title {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    header {
+        flex-direction: column-reverse;
+        /* width: 100%; */
+    }
+
+    .head-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head-details h1 {
+        margin-top: 20px;
+        font-size: 28px;
+        font-weight: 700;
+        width: 504px;
+        height: 78px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .head-details p {
+        font-weight: 600;
+        width: 400px;
+        height: 65px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .com-logo {
+        margin: 30px 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+    }
+
+    hr {
+        margin: 0 10px;
+        width: 100%;
+    }
+    .collections {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+    .more-text-position {
+        display: flex;
+        justify-content: end;
+        width: 130px;
+    }
 }
