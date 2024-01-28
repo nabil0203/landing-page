@@ -202,13 +202,18 @@ main .section-tile {
     font-weight: 700;
 }
 
-.more-text-position {
+.see-more {
     display: flex;
-    justify-content: end;
-    width: 1530px;
+    justify-content: center;
 }
 
-.collection-more-text,
+.see-more-container {
+    width: 1164px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.see-more-container h3,
 .fa-arrow-right {
     color: rgba(224, 44, 109, 0.87);
     font-weight: 700;
@@ -216,11 +221,11 @@ main .section-tile {
 
 
 
-
 /* --------------------------------
     Feature section
 ----------------------------------*/
 section {
+    padding-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -353,14 +358,21 @@ footer {
         margin: 0 10px;
         width: 100%;
     }
+
     .collections {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
     }
-    .more-text-position {
-        display: flex;
-        justify-content: end;
-        width: 130px;
+
+    .see-more {
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+    
+    .see-more-container {
+        /* width: 100%; */
+        /* display: flex; */
+        /* justify-content: flex-end; */
     }
 }
